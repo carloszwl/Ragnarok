@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Record of Ragnarok - Torneio Celestial</title>
+
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav class="navbar">
+
+    <button class="menu-btn">☰</button>
+
+    <div class="logo">
+        <span>Record of Ragnarok</span>
+        <img src="img/logo.png">
+    </div>
+    <div id="sidebar" class="sidebar">
+    <button id="btnFecharSidebar" class="fechar-sidebar">&times;</button>
+    
+    <div class="sidebar-conteudo">
+        <h2>SOBRE O ANIME</h2>
+        <hr class="linha-divisoria">
+
+        <div class="secao-info motivo-torneio">
+    <h3>⚖️ O Veredito Divino: Por que o Torneio acontece?</h3>
+    <p>
+        A cada <strong>1.000 anos</strong>, todos os Deuses do universo se reúnem no Conselho de Valhalla para decidir o destino da humanidade. Devido aos séculos de guerras, poluição e destruição causados pelos mortais, os Deuses votaram de forma unânime pela <strong>extinção total da raça humana</strong>.
+    </p>
+    <p style="margin-top: 10px;">
+        Entretanto, a mais velha das 13 irmãs Valquírias, <strong>Brunhilde</strong>, zombou do orgulho dos Deuses e ativou a brecha constitucional mais antiga dos céus: o <strong>Ragnarok</strong>. Um confronto final onde os deuses devem testar o valor da humanidade em combates diretos antes de eliminá-los.
+    </p>
+</div>
+        
+        <div class="secao-info">
+            <h3>⚔️ Regras do Ragnarok</h3>
+            <p>13 deuses contra 13 humanos em batalhas de vida ou morte na Arena do Valhalla. A facção que alcançar 7 vitórias primeiro decide o destino da humanidade.</p>
+        </div>
+
+        <div class="secao-info">
+            <h3>🛡️ O Elo de Volundr</h3>
+            <p>Para enfrentar o poder esmagador das armas divinas, as 13 irmãs Valquírias transformam seus próprios corpos nas armas mais poderosas dos humanos, unindo suas almas.</p>
+        </div>
+
+        <div class="secao-info">
+            <h3>✍️ Sobre os Autores</h3>
+            <p>Shinya Umemura e Takumi Fukui cuidam do roteiro genial, enquanto a arte absurda fica por conta do grupo Ajichika. O mangá começou em 2017!</p>
+        </div>
+
+         <div class="secao-info">
+            <h3> Sobre o Auto do Site</h3>
+            <p>Carlos Daniel , Um iniciante na Aréa da Programação e Fez esse site como Primeiro Projeto @carlos_zwl </p>
+        </div>
+    </div>
+</div>
+
+<div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+</nav>
+
+    <div class="container-inicio" id="containerInicio">
+</div>
+</div>
+
+<div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+</nav> <div class="alternador-modos">
+        <button id="btnModoHumano" class="btn-modo modo-azul">⚡ Modo Humano</button>
+        <button id="btnModoDeus" class="btn-modo modo-vermelho">🔥 Modo Deus</button>
+        <button id="btnModoReset" class="btn-modo modo-padrao ativo">🏛️ Arena Neutra</button>
+    </div>
+
+    <div class="container-inicio" id="containerInicio">
+        
+        <header class="boas-vindas" id="inicio">
+           
+           
+            
+            <div class="menu-navegacao">
+            
+        </header>
+
+        <section class="secao-galeria" id="galeria">
+            <h2 class="titulo-secao">Guerreiros Confirmados</h2>
+
+           <div id="bloco-humanos" class="bloco-filtro">
+                <h3 class="subtitulo-faccao humano">⚔️ Representantes da Humanidade</h3>
+                <div class="galeria-grade">
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Adão.png" alt="Adão">
+                        <h3>Adão</h3>
+                        <p class="subtitulo-deus">Pai da Humanidade</p>
+                        <p class="ano-guerreiro"><strong>Época:</strong> Início dos Tempos</p>
+                        <p class="desc-deus">O arquivo número 1 da humanidade. Luta usando os Olhos do Senhor, sendo capaz de copiar perfeitamente qualquer golpe divino.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Lü Bu.png" alt="Lu Bu">
+                        <h3>Lu Bu</h3>
+                        <p class="subtitulo-deus">O Herói Voador</p>
+                        <p class="ano-guerreiro"><strong>Ano:</strong> 199 d.C. (Três Reinos)</p>
+                        <p class="desc-deus">O guerreiro mais forte da história humana. Possui uma força bruta descomunal e técnica capaz de dividir os céus.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Sasaki Kojiro.png" alt="Kojiro Sasaki">
+                        <h3>Kojiro Sasaki</h3>
+                        <p class="subtitulo-deus">O Maior Perdedor da História</p>
+                        <p class="ano-guerreiro"><strong>Ano:</strong> 1583 a 1612 (Período Edo)</p>
+                        <p class="desc-deus">Mestre da espada que evolui através da simulação mental de combate, prevendo com precisão os passos do inimigo.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Jack, o Estripador.png" alt="Jack, o Estripador">
+                        <h3>Jack, o Estripador</h3>
+                        <p class="subtitulo-deus">A Malícia Encarnada</p>
+                        <p class="ano-guerreiro"><strong>Ano:</strong> 1888 (Era Vitoriana)</p>
+                        <p class="desc-deus">O assassino mais infame de Londres. Utiliza táticas furtivas, mentiras e transforma tudo o que toca em arma divina.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Raiden Tameemon.png" alt="Raiden Tameemon">
+                        <h3>Raiden Tameemon</h3>
+                        <p class="subtitulo-deus">O Rikishi Sem Igual</p>
+                        <p class="ano-guerreiro"><strong>Ano:</strong> 1767 - 1825 (Período Edo)</p>
+                        <p class="desc-deus">O maior lutador de Sumô de sempre. Detém os músculos mais destrutivos e hiperdesenvolvidos da história.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/buddha.png" alt="Buddha">
+                        <h3>Buddha</h3>
+                        <p class="subtitulo-deus">O Iluminado</p>
+                        <p class="ano-guerreiro"><strong>Época:</strong> Século V a.C.</p>
+                        <p class="desc-deus">Alcançou a iluminação sozinho e escolheu lutar pelos mortais. Consegue ver o fluxo do destino e a iluminação da alma.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Qin Shi Huang.png" alt="Qin Shi Huang">
+                        <h3>Qin Shi Huang</h3>
+                        <p class="subtitulo-deus">O Primeiro Imperador</p>
+                        <p class="ano-guerreiro"><strong>Ano:</strong> 221 a 210 a.C. (Dinastia Qin)</p>
+                        <p class="desc-deus">O homem que unificou a China. Enxerga as estrelas de energia (Ki) dos oponentes para enfraquecer seus golpes.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Nikola Tesla.png" alt="Nikola Tesla">
+                        <h3>Nikola Tesla</h3>
+                        <p class="subtitulo-deus">O Filho Pródigo da Ciência</p>
+                        <p class="ano-guerreiro"><strong>Ano:</strong> 1856 - 1943 (Era Moderna)</p>
+                        <p class="desc-deus">O único mago da história que não usa magia, mas sim a ciência pura através da sua armadura mecânica automatizada.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Rei Leônidas.png" alt="Leônidas">
+                        <h3>Rei Leônidas</h3>
+                        <p class="subtitulo-deus">O Maior Rebelde de Esparta</p>
+                        <p class="ano-guerreiro"><strong>Ano:</strong> 480 a.C. (Grécia Antiga)</p>
+                        <p class="desc-deus">Líder dos lendários 300 espartanos. Entra na arena movido pelo ódio aos deuses e empunhando um escudo mutável.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Souji Okita.webp" alt="Okita Souji">
+                        <h3>Okita Souji</h3>
+                        <p class="subtitulo-deus">O Capitão do Shinsengumi</p>
+                        <p class="ano-guerreiro"><strong>Ano:</strong> 1842 - 1868 (Bakumatsu)</p>
+                        <p class="desc-deus">O prodígio da espada do Japão. Um espadachim feroz que leva o seu próprio coração ao limite para atingir velocidade extrema.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Simo Häyhä.png" alt="Simo Häyhä">
+                        <h3>Simo Häyhä</h3>
+                        <p class="subtitulo-deus">A Morte Branca</p>
+                        <p class="ano-guerreiro"><strong>Ano:</strong> 1905 - 2002 (Guerra de Inverno)</p>
+                        <p class="desc-deus">O maior franco-atirador da história militar. Luta camuflado na neve com seu rifle de precisão e paciência absoluta.</p>
+                    </div>
+
+                    <div class="card-galeria humano">
+                        <div class="tag-card">Humano</div>
+                        <img src="img/Sakata Kintoki.png" alt="Sakata Kintoki">
+                        <h3>Sakata Kintoki</h3>
+                        <p class="subtitulo-deus">O Herói de Ouro</p>
+                        <p class="ano-guerreiro"><strong>Época:</strong> Período Heian</p>
+                        <p class="desc-deus">Uma lenda folclórica dotada de uma força monstruosa e um coração puro, convocado para o combate da 12ª rodada.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bloco-valquirias" class="bloco-filtro">
+                <h3 class="subtitulo-faccao valquiria">🛡️ Valquírias</h3>
+                <div class="galeria-grade">
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Valquíria</div>
+                        <img src="img/brunhilde.png" alt="Brunhilde">
+                        <h3>Brunhilde</h3>
+                        <p class="subtitulo-deus">1ª Irmã (Líder)</p>
+                        <p class="desc-deus">Mente por trás do torneio.<br>Guia a humanidade.</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/randgriz.png" alt="Randgriz">
+                        <h3>Randgriz</h3>
+                        <p class="subtitulo-deus">4ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Lu Bu<br><strong>Arma:</strong> Alabarda Sky Piercer</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/reginleif.png" alt="Reginleif">
+                        <h3>Reginleif</h3>
+                        <p class="subtitulo-deus">7ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Adão<br><strong>Arma:</strong> Soco-Inglês</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/hrist.png" alt="Hrist">
+                        <h3>Hrist</h3>
+                        <p class="subtitulo-deus">2ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Kojiro Sasaki<br><strong>Arma:</strong> Katana Dupla</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/hlokk.png" alt="Hlökk">
+                        <h3>Hlökk</h3>
+                        <p class="subtitulo-deus">11ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Jack, o Estripador<br><strong>Arma:</strong> Luvas Divinas</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/thrud.png" alt="Thrud">
+                        <h3>Thrud</h3>
+                        <p class="subtitulo-deus">3ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Raiden<br><strong>Arma:</strong> Mawashi Divino</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/Alvitr.png" alt="Alvitr">
+                        <h3>Alvitr</h3>
+                        <p class="subtitulo-deus">10ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Qin Shi Huang<br><strong>Arma:</strong> Armadura de Ombro</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/Göndul.png" alt="Gôndul">
+                        <h3>Gôndul</h3>
+                        <p class="subtitulo-deus">9ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Nikola Tesla<br><strong>Arma:</strong> Traje Automaton β</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/Geirölul.png" alt="Geirölul">
+                        <h3>Geiravör</h3>
+                        <p class="subtitulo-deus">5ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Rei Leônidas<br><strong>Arma:</strong> Escudo Mutável</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/Radgridr.png" alt="Radgridr">
+                        <h3>Geirölul</h3>
+                        <p class="subtitulo-deus">6ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Simo Häyhä<br><strong>Arma:</strong> Rifle de Precisão Divino</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/Calmöld.png" alt="Calmöld">
+                        <h3>Kuraqu</h3>
+                        <p class="subtitulo-deus">12ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Okita Souji<br><strong>Arma:</strong> Katana Onislayer Divina</p>
+                    </div>
+
+                    <div class="card-galeria valquiria">
+                        <div class="tag-card valq">Volundr</div>
+                        <img src="img/Skeggjöld.png" alt="Skeggjöld">
+                        <h3>Regingleif</h3>
+                        <p class="subtitulo-deus">8ª Irmã</p>
+                        <p class="desc-deus"><strong>Parceiro:</strong> Sakata Kintoki<br><strong>Arma:</strong> Machado de Ouro Celestial</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bloco-deuses" class="bloco-filtro">
+                <h3 class="subtitulo-faccao deus">⚡ Deuses</h3>
+                <div class="galeria-grade">
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/thor.png" alt="Thor">
+                        <h3>Thor</h3>
+                        <p class="subtitulo-deus">O Deus do Trovão</p>
+                        <p class="desc-deus">O guerreiro mais forte de Asgard. Empunha as luvas Járngreipr e o lendário martelo esmagador Mjolnir.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/zeus.png" alt="Zeus">
+                        <h3>Zeus</h3>
+                        <p class="subtitulo-deus">O Pai do Cosmos</p>
+                        <p class="desc-deus">Presidente do Conselho dos Deuses. Detém o controle total do tempo e a devastadora forma física Adamas.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/poseidon.png" alt="Poseidon">
+                        <h3>Poseidon</h3>
+                        <p class="subtitulo-deus">O Tirano dos Mares</p>
+                        <p class="desc-deus">O deus mais arrogant e perfeito do panteão grego. Ataca com uma velocidade de tridente inalcançável.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/hercules.png" alt="Hércules">
+                        <h3>Hércules</h3>
+                        <p class="subtitulo-deus">O Deus da Fortitude</p>
+                        <p class="desc-deus">Ascendeu à divindade através da sua justiça. Utiliza os 12 Trabalhos para alterar a forma da sua clava em combate.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/shiva.png" alt="Shiva">
+                        <h3>Shiva</h3>
+                        <p class="subtitulo-deus">O Deus da Destruição</p>
+                        <p class="desc-deus">Líder do panteão hindu. Conhecido pelos seus quatro braços e pelo ritmo de dança imprevisível que incendeia o corpo.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/Zerofuku.png" alt="Zerofuku">
+                        <h3>Zerofuku</h3>
+                        <p class="subtitulo-deus">O Deus da Fortuna Invertida</p>
+                        <p class="desc-deus">A fusão dos Sete Deuses da Sorte. Absorve a infelicidade do mundo e a transforma em uma enorme clava mutável movida por puro rancor.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/Hajun.png" alt="Hajun">
+                        <h3>Hajun</h3>
+                        <p class="subtitulo-deus">O Rei Demônio do Sexto Céu</p>
+                        <p class="desc-deus">Uma entidade lendária do Submundo que renasceu destruindo o corpo de Zerofuku. Possui força monstruosa e braços que viram brocas e lâminas físicas.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/hades.png" alt="Hades">
+                        <h3>Hades</h3>
+                        <p class="subtitulo-deus">O Rei do Submundo</p>
+                        <p class="desc-deus">O soberano do Helheim. Lutou no torneio para vingar o seu irmão Poseidon, utilizando o sangue para fortalecer a lança.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/beelzebub.png" alt="Beelzebub">
+                        <h3>Beelzebub</h3>
+                        <p class="subtitulo-deus">O Senhor das Moscas</p>
+                        <p class="desc-deus">Uma divindade sombria e amaldiçoada da Filístia. Manipula ondas de alta frequência vibratória para ataque e defesa absoluta.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/apollo.png" alt="Apollo">
+                        <h3>Apollo</h3>
+                        <p class="subtitulo-deus">O Deus do Sol</p>
+                        <p class="desc-deus">A divindade da beleza e das artes. Domina fios de luz divinos e um arco capaz de disparar flechas à velocidade da luz.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/susanoo.png" alt="Susanoo-no-Mikoto">
+                        <h3>Susanoo-no-Mikoto</h3>
+                        <p class="subtitulo-deus">O Deus da Tormenta</p>
+                        <p class="desc-deus">O maior espadachim dos céus. Unificou todos os estilos de corte criados pela humanidade na espada divina Shinkage.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/loki.png" alt="Loki">
+                        <h3>Loki</h3>
+                        <p class="subtitulo-deus">O Deus da Trapaça</p>
+                        <p class="desc-deus">Astuto, sádico e imprevisível. Utiliza correntes mágicas ocultas e portais de illusions para enganar os rivais.</p>
+                    </div>
+
+                    <div class="card-galeria deus">
+                        <div class="tag-card">Deus</div>
+                        <img src="img/odin.png" alt="Odin">
+                        <h3>Odin</h3>
+                        <p class="subtitulo-deus">O Pai de Todos</p>
+                        <p class="desc-deus">Líder supremo de Asgard. Uma divindade envolta em mistério que emana uma aura opressora de morte pura.</p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section class="almanaque-container" id="almanaqueInfo">
+            <h2 class="almanaque-titulo">Placar: Lutas do Ragnarok</h2>
+            
+            <div class="status-grid">
+                <div class="status-box">
+                    <span class="status-label">Lutas no Anime</span>
+                    <span class="status-numero">09</span>
+                    <span class="status-sub">Até a 3ª Temporada</span>
+                </div>
+                <div class="status-box destaque-placar">
+                    <span class="status-label">Total de Lutas na Obra</span>
+                    <span class="status-numero central">12</span>
+                    <span class="status-sub">Contando a Rodada Atual</span>
+                </div>
+                <div class="status-box arena-atual">
+                    <span class="status-label">Arena Atual (Mangá)</span>
+                    <span class="status-confronto">Sakata Kintoki <span class="vs-txt">VS</span> Odin</span>
+                    <span class="badge-andamento">12ª Rodada • Em Andamento ⚔️</span>
+                </div>
+            </div>
+
+            <h3 class="linha-tempo-titulo">Histórico de Confrontos</h3>
+            <div class="timeline-lutas">
+
+                <div class="luta-card deus-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 01</span><span class="luta-veredito">Vitória dos Deuses</span></div>
+                    <h4 class="luta-nomes">Lu Bu <span class="vs">VS</span> Thor</h4>
+                    <span class="luta-tempo">⏱️ 16min 28s</span>
+                    <p class="luta-resumo">Um confronto de força bruta pura. Lu Bu conseguiu aguentar os golpes de Thor e até feri-lo, mas após o despertar do Mjolnir, as pernas do humano quebraram sob a pressão. Lu Bu foi superado pelo poder devastador do deus.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Geirröd Thor's Hammer</span></div>
+                </div>
+
+                <div class="luta-card deus-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 02</span><span class="luta-veredito">Vitória dos Deuses</span></div>
+                    <h4 class="luta-nomes">Adão <span class="vs">VS</span> Zeus</h4>
+                    <span class="luta-tempo">⏱️ 07min 13s</span>
+                    <p class="luta-resumo">Usando os "Olhos do Senhor", Adão copiou todos os golpes de Zeus. Zeus ativou a forma "Adamas" numa batalha extrema de desgaste. Os olhos de Adão estouraram, mas ele continuou socando, morrendo de pé por puro amor aos filhos.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Sobrevivência por Desgaste</span></div>
+                </div>
+
+                <div class="luta-card humano-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 03</span><span class="luta-veredito">Vitória da Humanidade</span></div>
+                    <h4 class="luta-nomes">Kojiro Sasaki <span class="vs">VS</span> Poseidon</h4>
+                    <span class="luta-tempo">⏱️ 13min 07s</span>
+                    <p class="luta-resumo">Poseidon atacou com velocidade assustadora, enquanto Kojiro previa os movimentos mentalmente. Após ter a espada quebrada, seu Volundr se dividiu em duas espadas, permitindo-o evoluir seu estilo e fatiar o Deus dos Mares.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Andorinha Cortante do Tigre de Duas Espadas</span></div>
+                </div>
+
+                <div class="luta-card humano-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 04</span><span class="luta-veredito">Vitória da Humanidade</span></div>
+                    <h4 class="luta-nomes">Jack, o Estripador <span class="vs">VS</span> Hércules</h4>
+                    <span class="luta-tempo">⏱️ 26min 57s</span>
+                    <p class="luta-resumo">Numa Londres artificial, Jack revelou que seu verdadeiro Volundr eram suas luvas, que transformavam tudo em arma divina. Usando armadilhas e mentiras, enganou e empalou Hércules com as próprias mãos em sangue divino.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Dear God (Querido Deus)</span></div>
+                </div>
+
+                <div class="luta-card deus-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 05</span><span class="luta-veredito">Vitória dos Deuses</span></div>
+                    <h4 class="luta-nomes">Raiden Tameemon <span class="vs">VS</span> Shiva</h4>
+                    <span class="luta-tempo">⏱️ 12min 14s</span>
+                    <p class="luta-resumo">Raiden liberou seus músculos e destruiu dois braços de Shiva. Porém, o líder hindu ativou sua Dança Oculta Incendiária, queimando seu corpo para ganhar velocidade e desferir chutes de chamas letais.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Deva Loka</span></div>
+                </div>
+
+                <div class="luta-card humano-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 06</span><span class="luta-veredito">Vitória da Humanidade</span></div>
+                    <h4 class="luta-nomes">Buddha <span class="vs">VS</span> Zerofuku / Hajun</h4>
+                    <span class="luta-tempo">⏱️ 21min 37s</span>
+                    <p class="luta-resumo">Buddha lutou pelos humanos e salvou Zerofuku, mas o corpo do deus foi tomado pelo Rei Demônio Hajun. Buddha perdeu um olho, mas fundiu sua arma com a alma de Zerofuku para cortar Hajun ao meio.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Espada Sagrada do Mahapari Nirvana</span></div>
+                </div>
+
+                <div class="luta-card humano-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 07</span><span class="luta-veredito">Vitória da Humanidade</span></div>
+                    <h4 class="luta-nomes">Qin Shi Huang <span class="vs">VS</span> Hades</h4>
+                    <span class="luta-tempo">⏱️ 22min 28s</span>
+                    <p class="luta-resumo">Hades buscou vingança por Poseidon com estocadas brutais. Qin Shi Huang, enxergando o fluxo de energia (Ki), redirecionou a força do deus. Mesmo perdendo um braço, quebrou a lança divina de Hades e o venceu.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Espada Shi Huang - Forma Cortante de Andorinha</span></div>
+                </div>
+
+                <div class="luta-card deus-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 08</span><span class="luta-veredito">Vitória dos Deuses</span></div>
+                    <h4 class="luta-nomes">Nikola Tesla <span class="vs">VS</span> Beelzebub</h4>
+                    <span class="luta-tempo">⏱️ 18min 06s</span>
+                    <p class="luta-resumo">Tesla usou uma armadura mecânica de alta tecnologia, criando gravidade zero e se teletransportando. Porém, o intelecto sombrio e as vibrações destrutivas de Beelzebub decifraram a ciência, superando Tesla.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Sorath Vav</span></div>
+                </div>
+
+                <div class="luta-card deus-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 09</span><span class="luta-veredito">Vitória dos Deuses</span></div>
+                    <h4 class="luta-nomes">Leonidas <span class="vs">VS</span> Apollo</h4>
+                    <span class="luta-tempo">⏱️ 09min 31s</span>
+                    <p class="luta-resumo">O Rei de Esparta enfrentou o Deus do Sol com um escudo mutável acorrentado. Apollo ativou seu arco de luz na velocidade da luz. Leonidas contra-atacou ferindo o deus, mas teve seu escudo estilhaçado no impacto final.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Phobos Arche (Flecha do Sol)</span></div>
+                </div>
+
+                <div class="luta-card humano-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 10</span><span class="luta-veredito">Vitória da Humanidade</span></div>
+                    <h4 class="luta-nomes">Okita Souji <span class="vs">VS</span> Susanoo-no-Mikoto</h4>
+                    <span class="luta-tempo">⏱️ 15min 23s</span>
+                    <p class="luta-resumo">Duelo épico de esgrima nas ruas de Kyoto reconstruídas na arena. Susanoo demonstrou o tempo e corte do vácuo, mas Okita levou seu coração doente ao limite máximo, atingindo velocidade divina para vencer.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Três Gumes Celestiais Invisíveis</span></div>
+                </div>
+
+                <div class="luta-card humano-venceu">
+                    <div class="luta-meta"><span class="luta-tag">Rodada 12</span><span class="luta-veredito">Vitória da Humanidade</span></div>
+                    <h4 class="luta-nomes">Simo Häyhä <span class="vs">VS</span> Loki</h4>
+                    <span class="luta-tempo">⏱️ 19min 42s</span>
+                    <p class="luta-resumo">O Deus da Trapaça tentou estraçalhar o casaco branco de Simo criando centenas de ilusões. Porém, demonstrando uma paciência divina e audição absoluta, o Franco-Atirador calculou a trajetória real através do som dos passos e disparou uma bala de Volundr certeira, atravessando a cabeça de Loki.</p>
+                    <div class="luta-finalizador"><span class="label-golpe">Golpe Final</span><span class="nome-golpe">Disparo Fantasma da Morte Branca</span></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   <div id="modalHistoria" class="modal-overlay oculto">
+        <div class="modal-content">
+            <span id="fecharModal" class="fechar-modal">&times;</span>
+            <h2 id="modalNome">Nome do Guerreiro</h2>
+            <div id="modalTexto">Carregando história...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
